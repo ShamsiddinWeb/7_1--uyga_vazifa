@@ -1,0 +1,23 @@
+.admin{
+    width: 100%;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.admin__sidebar{
+    height: 100vh;
+    position: fixed;
+    /* padding-right : /200px; */
+    background: rgb(116, 176, 236);
+}
+.admin__item {
+    padding-left: 5px;
+    padding-right: 130px;
+    margin-top: 20px;
+}
+.admin__content {
+    padding-left: 300px;
+    width: 90vw;
+    /* padding-left: 30px; */
+    padding-top: 50px;
+}

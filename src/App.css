@@ -1,0 +1,44 @@
+.wrapper{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+.card{
+    width: 280px;
+    padding: 14px;
+    box-shadow: 0 0 10px #0002;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.ssss {
+    display: none;
+}
+.zzz {
+    margin-top: 100px;
+    width: 900px;
+}
+.inp {
+    padding: 8px 20px;
+    margin-top: 25px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1PX solid blue;
+}
+.button {
+    padding: 8px 25px;
+    border-radius: 15px;
+    border: none;
+    color: #fFF;
+    background-color: blue;
+}
+.wrappers {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
